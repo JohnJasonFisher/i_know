@@ -1,0 +1,1 @@
+This is an angularjs project to show the concepts and skills that I have learned over my programming career.

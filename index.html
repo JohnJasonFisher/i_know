@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1, user-scalable=yes">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+
+	<script>
+	angular.module('i_know_app', [])
+	.controller('HomeController', ['$scope', function($scope) {
+		$scope.message = "Hello World"
+	}])
+	</script>
+</head>
+
+<body ng-app="i_know_app" ng-controller="HomeController">
+
+	<h1>These are the skills I know</h1>
+
+	<ul>
+		<li>Java</li>
+		<li>JavaScript</li>
+		<li>Git</li>
+		<li>html</li>
+	</ul>
+
+</body>
+
+</html>
